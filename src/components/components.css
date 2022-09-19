@@ -68,6 +68,14 @@ header .logo span {
     line-height: 2;
 }
 
+/* Page */
+.page-container {
+    max-width: 55%;
+    margin: 6rem auto;
+    padding: 0 0.5rem;
+    height: 100%;
+  }
+
 /* Footer */
 footer.footer {
   width: 100%;
@@ -75,12 +83,9 @@ footer.footer {
   background: var(--background-content);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   z-index: 10;
+  text-align: center;
 }
 
-/* Page */
-.page-container {
-  max-width: 55%;
-  margin: 6rem auto;
-  padding: 0 0.5rem;
-  height: 100%;
+footer .footer-text {
+    padding-top: 1rem;
 }

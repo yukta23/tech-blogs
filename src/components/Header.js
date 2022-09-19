@@ -1,4 +1,5 @@
-import { BookIcon, LogoIcon } from "../assets/icons";
+import { Link } from "react-router-dom";
+import { ArrowIcon, LogoIcon } from "../assets/icons";
 import "./components.css";
 
 function Header(props) {
@@ -7,11 +8,15 @@ function Header(props) {
       <div className="header-container">
         <div className="logo-wrapper">
           <div className="logo">
-            <LogoIcon />
+            <Link to={`/`}>
+              <LogoIcon />
+            </Link>
             <span>Tech Blogs</span>
           </div>
           <button className="icon">
-            <BookIcon/>
+            <Link to={`/`}>
+              <ArrowIcon />
+            </Link>
           </button>
         </div>
       </div>

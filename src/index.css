@@ -7,12 +7,20 @@
   --text-color: #e5e5e5;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-size: 1 rem;
   font-family: "Roboto", sans-serif;
   background: var(--background-body);
   color: var(--text-color);
+  height: 100%;
 }
 
 /* Global */
@@ -27,4 +35,11 @@ button.icon {
   cursor: pointer;
 }
 
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+}
 
